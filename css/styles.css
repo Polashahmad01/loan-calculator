@@ -47,9 +47,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
   max-width: 600px;
   margin: auto;
-  padding: 0 2rem;
 }
 
 .container .card {
@@ -166,7 +166,7 @@ a {
 }
 
 #main-footer {
-  margin-top: -4rem;
+  margin-top: -3rem;
   text-align: center;
   margin-left: 2.5rem;
 }
