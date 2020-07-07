@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 900;
+}
+
+:-ms-input-placeholder {
+  font-weight: 900;
+}
+
+::-ms-input-placeholder {
+  font-weight: 900;
+}
+
+::placeholder {
+  font-weight: 900;
+}
+
+body {
+  background: #25999e;
+  line-height: 1.6rem;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.container .card {
+  background: #21947f;
+  width: 600px;
+  padding: 2rem 2rem;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container .card h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .card #loan-form {
+  margin: 1rem 0;
+}
+
+.container .card #loan-form .input-group {
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.container .card #loan-form .input-group input {
+  width: 100%;
+  padding: 0.55rem 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.container .card #loan-form .input-group input:focus {
+  outline: none;
+}
+
+.container .card #loan-form .input-group .btn {
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1rem;
+  border: none;
+  margin: 0.5rem 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.container .card #loan-form .input-group .btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+#loading {
+  display: none;
+}
+
+#loading {
+  margin-bottom: 0.5rem;
+}
+
+#loading img {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.results {
+  display: none;
+  margin-top: 1rem;
+}
+
+.results h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.results .input-group {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.results .input-group span {
+  display: inline;
+  text-align: center;
+  background: #55afa1;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.results .input-group input {
+  display: inline;
+  padding: 0.6rem 1rem;
+  border: none;
+  margin-left: 0.3rem;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.results .input-group #monthly-payment {
+  width: 69%;
+}
+
+.results .input-group #total-payment {
+  width: 73.5%;
+}
+
+.results .input-group #total-interest {
+  width: 75%;
+}
+
+#main-footer {
+  margin-top: -4rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+
+#main-footer p {
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-weight: 900;
+}
+
+body {
+  background: #25999e;
+  line-height: 1.6rem;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+// Main
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  padding: 0 2rem;
+
+  .card {
+    background: #21947f;
+    width: 600px;
+    padding: 2rem 2rem;
+    margin: auto;
+    border-radius: 10px;
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #loan-form {
+      margin: 1rem 0;
+
+      .input-group {
+        margin-bottom: 0.7rem;
+        display: block;
+
+        input {
+          width: 100%;
+          padding: 0.55rem 1rem;
+          border-radius: 20px;
+          border: none;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        .btn {
+          cursor: pointer;
+          background: #333;
+          color: #fff;
+          font-weight: 900;
+          font-size: 1rem;
+          border: none;
+          margin: 0.5rem 0;
+          transition: all 0.3s ease-in;
+
+          &:hover {
+            background: #fff;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+#loading {
+  display: none;
+}
+
+#loading {
+  margin-bottom: 0.5rem;
+
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 30%;
+  }
+}
+
+.results {
+  display: none;
+  margin-top: 1rem;
+
+  h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .input-group {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+
+    span {
+      display: inline;
+      text-align: center;
+      background: #55afa1;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      font-weight: 900;
+    }
+
+    input {
+      display: inline;
+      padding: 0.6rem 1rem;
+      border: none;
+      margin-left: 0.3rem;
+      border-radius: 20px;
+      font-weight: 900;
+    }
+
+    #monthly-payment {
+      width: 69%;
+    }
+
+    #total-payment {
+      width: 73.5%;
+    }
+
+    #total-interest {
+      width: 75%;
+    }
+  }
+}
+
+#main-footer {
+  margin-top: -4rem;
+  text-align: center;
+  margin-left: 2.5rem;
+
+  p {
+    font-size: 0.9rem;
+  }
+}
